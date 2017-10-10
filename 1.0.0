@@ -1,0 +1,5 @@
+----------
+Command failed: yarn add ignite-standard --dev
+error An unexpected error occurred: "EISDIR: illegal operation on a directory, open 'C:\\Users\\xuke\\AppData\\Local\\Yarn\\cache\\v1\\npm-basic-auth-connect-0.0.0-af7b3d0d-2228-47f8-b63f-915adb30b3d7-1507651512494'".
+
+----------

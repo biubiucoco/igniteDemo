@@ -1,0 +1,5 @@
+----------
+Command failed: yarn add ignite-dev-screens --dev
+error An unexpected error occurred: "EISDIR: illegal operation on a directory, open 'C:\\Users\\xuke\\AppData\\Local\\Yarn\\cache\\v1\\npm-ms-0.0.0-8544bde1-547b-47ea-950f-58959867d783-1507651503636'".
+
+----------
