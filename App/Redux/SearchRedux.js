@@ -37,10 +37,12 @@ export const INITIAL_STATE = Immutable({
 
 export const performSearch = (state, { searchTerm }) => {
   const results = filter(startsWith(searchTerm), LIST_DATA)
+  console.log('results', results)
+
   return state.merge({ searching: true, searchTerm, results })
 }
 
-export const cancelSearch = (state) => INITIAL_STATE
+export const cancelSearch = (state) => {console.log( 123123123); return INITIAL_STATE}
 
 /* ------------- Hookup Reducers To Types ------------- */
 

@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
+import { NavigationActions } from 'react-navigation';
 import { ScrollView, Text, Image, View } from 'react-native'
 import { Images } from '../Themes'
-
 // Styles
 import styles from './Styles/LaunchScreenStyles'
 
 export default class LaunchScreen extends Component {
+  componentDidMount() {
+    setTimeout(() => {
+      const { navigate } = this.props.navigation;
+      // this.navigator && this.navigator.dispatch(
+      //   NavigationActions.navigate({ routeName: 'Tab1Scree1n' })
+      // );
+      navigate('Tab1Scree1n')
+    }, 3000)
+  }
   render () {
     return (
       <View style={styles.mainContainer}>
